@@ -1,4 +1,4 @@
-# jest-import-transfomer
+# jest-import-transformer
 `jest` transformer to change directly manual mock imports to normal import.
 
 ## Problems this plugin solve
