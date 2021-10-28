@@ -1,0 +1,29 @@
+{
+  "name": "@arbourplatform/jest-import-transfomer",
+  "version": "1.0.0",
+  "description": "`ts-jest` transformer to change manual mock imports to normal import to match `jest` requirements",
+  "main": "src/jest-import-transformer.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbourplatform/jest-import-transfomer.git"
+  },
+  "keywords": [
+    "jest",
+    "typescript",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arbourplatform/jest-import-transfomer/issues"
+  },
+  "homepage": "https://github.com/arbourplatform/jest-import-transfomer#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0",
+    "ts-jest": "^27.0.5"
+  }
+}
