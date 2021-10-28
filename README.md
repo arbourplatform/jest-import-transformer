@@ -1,6 +1,22 @@
 # jest-import-transformer
 `jest` transformer to change directly manual mock imports to normal import.
 
+## How to use
+To use this transformer with `ts-jest`, update `jest.config.js` to add `ts-jest` configuration:
+```js
+module.exports = {
+  // ...
+  globals: {
+    'ts-jest': {
+      astTransformers: {
+        before: ['@arbourplatform/jest-import-transformer'],
+      },
+    },
+  },
+  // ...
+};
+```
+
 ## Problems this plugin solve
 
 ### Not having Typescript typings for manual mocks
